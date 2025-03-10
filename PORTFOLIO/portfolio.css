@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.startSec{
+    background-color: #fff;
+}
+.NavFixed{
+    position: relative;
+}
+.navRight{
+    margin-left: 70%;
+    gap: 9px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.image img{
+    height: 50vh;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+.right{
+    display: flex;
+}
+.rightLetters{
+    margin: 200px 200px 0 200px;
+}
+.resumeBtn{
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(145, 0, 0);
+    color: whitesmoke;
+    font-weight: bold;
+    border: 1px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/*-------------ABOUT ME-------------*/
+.left{
+    display: flex;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+.leftLetters{
+    margin: 200px;   
+}
+.cardOne{
+    height: 200px;
+    width: 200px;
+}
+.image{
+    margin-top: 160px;
+}
+
+/* -------------SKILLS-------------- */
+.servicesDiv{
+    /* display: flex; */
+    gap: 50px;
+    margin: 50px 10px 50px 10px;
+    margin-left: 0.5vw;
+}
+.servicesHead{
+    color: rgb(145, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skillimg{
+    cursor: pointer;
+}
+
+/* ------------ EDUCATION ---------------- */
+.education{
+    margin: 20px 20px 50px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.studies{
+    color: rgb(145, 0, 0);
+    text-align: center;
+    font-weight: bold;
+}
+.edu1{
+    display: flex;
+}
+.rEd1{
+    margin-left: 33vw;
+    margin-top: 2px;
+}
+.rEd2{
+    margin-left: 42.3vw;
+    margin-top: 2px;
+}
+.rEd3{
+    margin-left: 37.3vw;
+    margin-top: 2px;
+}
+.head{
+    font-family: 'Times New Roman', Times, serif;
+}
+.frontend, .backend, .tools{
+    display: flex;
+    gap: 20px;
+}
+
+/* ------------ CONTACT ME ---------------- */
+#contactUs{
+    margin-top: 50vh;
+    height: 100%;
+    background-color:teal;
+    color: whitesmoke;
+    padding: 25px 54px 25px 54px;
+    display: flex;
+}
+.linkedIn,.github,.instagram,.Facebook{
+    font-size: 30px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.submit{
+    padding: 5px 50px 5px 40px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btnSub{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.submit:hover{
+    background-color:rgb(2, 76, 76);
+    color: whitesmoke;
+}
